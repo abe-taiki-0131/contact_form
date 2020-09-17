@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: #60CDB8;
+    color: whitesmoke;
+}
+h1 {
+    color: #F1F46C;
+    margin-top: 35px;
+    /* background-color: red; */
+}
+#form {
+    margin-top: 50px;
+    display: block; 
+    /* background-color: pink; */
+}
+.form_content {
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+#mail_address {
+    border-radius: 5px;
+    border-color: transparent;
+}
+#user_name {
+    border-radius: 5px;
+    border-color: transparent;
+}
+#textarea {
+    border-radius: 5px;
+    border-color: transparent;
+}
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #F1F46C;/*ボタン色*/
+    color: #000;
+    /* border-bottom: solid 4px #627295; */
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: transparent;
+    margin-top: 15px;
+}
+.btn-square:active {
+/*ボタンを押したとき*/
+-webkit-transform: translateY(4px);
+transform: translateY(4px);/*下に動く*/
+border-bottom: none;/*線を消す*/
+/* border-color: transparent; */
+}
+#cdlength1 {
+    font-size: 2px;
+    margin-top:0;
+    margin-left: 115px;
+}
